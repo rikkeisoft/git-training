@@ -34,3 +34,11 @@ Thiết lập thông tin cá nhân cho Git: (Sử dụng Git Bash hoặc Termina
 ## Những điều chú ý khi dùng Git
 - Viết nội dung commit có ý nghĩa và liên quan tới công việc đang làm.
  + Ví dụ: Issue #69, có yêu cầu: *"Viết chức năng đăng ký user cho hệ thống"* thì khi commit nên viết message là: **"Implement user registration feature #69"**
+
+## Tip
+- Bị lỗi liên quan đến line-ending:
+```
+git rm .gitattributes
+git add -A
+git reset --hard
+```
