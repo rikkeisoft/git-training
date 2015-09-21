@@ -6,6 +6,7 @@
 - Những lệnh hay dùng: [Git Cheatsheet](http://www.git-tower.com/blog/git-cheat-sheet/)  (Tiếng Anh)
 - Ebook hướng dẫn Git từ căn bản đến nâng cao: [Tiếng Anh](https://git-scm.com/book/en/v2) (updated 2014), [Tiếng Việt](https://git-scm.com/book/vi/v1) (updated 2009)
 - Hướng dẫn sử dụng Git trên Netbean IDE: Đọc ở [đây](https://netbeans.org/kb/docs/ide/git.html)
+- [Start a new git repository](http://kbroman.org/github_tutorial/pages/init.html)
 
 ## Git Client
 Dưới đây là những phần mềm tương tác với Git qua giao diện đồ hoạ:
