@@ -1,6 +1,6 @@
 ## [Rikkeisoft] Git Training
 
-- Hướng dẫn về Git cơ bản cho người mới bắt đầu: Đọc ở [đây](http://backlogtool.com/git-guide/vn/intro/intro1_1.html) (Tiếng Việt)
+- Hướng dẫn về Git cơ bản cho người mới bắt đầu: Đọc ở [đây](http://backlogtool.com/git-guide/vn/intro/intro1_1.html) (Tiếng Việt), chú ý đọc cả phần **Nhập môn** và **Phát triển**.
 - Sổ tay về Git: Đọc ở [đây](http://rogerdudler.github.io/git-guide/index.vi.html) (Tiếng Việt)
 - Thực hành những thao tác căn bản với Git online: [Try Git](http://try.github.com/)  (Tiếng Anh)
 - Những lệnh hay dùng: [Git Cheatsheet](http://www.git-tower.com/blog/git-cheat-sheet/)  (Tiếng Anh)
