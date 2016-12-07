@@ -34,6 +34,7 @@ Thiết lập thông tin cá nhân cho Git: (Sử dụng Git Bash hoặc Termina
 
 ### Trường hợp code trên Windows nhưng chạy trên Linux
 *Trong trường hợp code trên Windows nhưng code được đưa lên môi trường thực thi Linux bằng cách share folder hoặc upload trực tiếp, cần đảm bảo các file ở working copy có line endings kiểu Unix (LF) để chạy đúng trên môi trường Linux.*
+- `git config core.safecrlf true`
 - `git config core.eol lf`
 - `git config core.autocrlf input`
 - Khi lưu file, cần chú ý file được lưu với line ending là LF (Có thể dùng plugin **Show and change line endings** của Netbeans để thay đổi line ending)
