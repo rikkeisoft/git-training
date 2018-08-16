@@ -11,6 +11,7 @@
 ## Git Client
 Dưới đây là những phần mềm tương tác với Git qua giao diện đồ hoạ:
 - [SourceTree](http://www.sourcetreeapp.com/) (Windows, Mac)
+- [GitKraken](https://www.gitkraken.com/) (Windows, Mac, Linux)
 - [GitExtension](https://github.com/gitextensions/gitextensions/releases) (Windows, Mac, Linux)
 - [git-cola](http://git-cola.github.com/) (Windows, Linux)
 
@@ -22,8 +23,8 @@ Dưới đây là những phần mềm tương tác với Git qua giao diện đ
 
 ## Cấu hình Git căn bản
 Thiết lập thông tin cá nhân cho Git: (Sử dụng Git Bash hoặc Terminal để gõ các lệnh sau) **bắt buộc**
-- `git config --global user.name "Tên của bạn"`
-- `git config --global user.email tên@rikkeisoft.com`
+- `git config --global user.name "Ten cua ban"`
+- `git config --global user.email <email rikkeisoft>`
 
 - `git config --global core.safecrlf true`
 - `git config --global color.ui true`
@@ -34,6 +35,8 @@ Thiết lập thông tin cá nhân cho Git: (Sử dụng Git Bash hoặc Termina
 
 ### Trường hợp code trên Windows nhưng chạy trên Linux
 *Trong trường hợp code trên Windows nhưng code được đưa lên môi trường thực thi Linux bằng cách share folder hoặc upload trực tiếp, cần đảm bảo các file ở working copy có line endings kiểu Unix (LF) để chạy đúng trên môi trường Linux.*
+
+Với các dự án này thì thực hiện config giống như trên môi trường Linux. Chú ý chỉ config cho riêng từng repository, không config global để tránh ảnh hưởng tới các repository có môi trường khác.
 - `git config core.safecrlf true`
 - `git config core.eol lf`
 - `git config core.autocrlf input`
@@ -41,7 +44,7 @@ Thiết lập thông tin cá nhân cho Git: (Sử dụng Git Bash hoặc Termina
 
 ## Những điều chú ý khi dùng Git
 - Viết nội dung commit có ý nghĩa và liên quan tới công việc đang làm.
- + Ví dụ: Issue #69, có yêu cầu: *"Viết chức năng đăng ký user cho hệ thống"* thì khi commit nên viết message là: **"Implement user registration feature #69"**
+ + Ví dụ: Issue #69, có yêu cầu: *"Viết chức năng đăng ký user cho hệ thống"* thì khi commit nên viết message là: **"Issue #69 Implement user registration feature"**
 
 ## Tip
 - Bị lỗi liên quan đến line-ending:
